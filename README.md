@@ -23,6 +23,7 @@ The analysis focuses on:
 • Complaint frequency and resolution outcomes
 • Repeated interactions and service fatigue
 • Recency of last interaction as an early churn signal
+### Dashboards
 ![Customer_Demographics_Overview](images/Customer_Demographics_Overview.png)
 ![Customer_Segmentation_Churn Status](images/Customer_Segmentation_Churn Status.png)
 ![Transaction_Behaviour_Churn_rate](images/Transaction_Behaviour_Churn_rate.png)
@@ -32,11 +33,12 @@ The analysis focuses on:
 
 Customer-level metrics were created using Tableau LOD calculations to ensure accurate aggregation.
 
-## Key Insights
+### Key Insights
 Customers with repeated service interactions show higher churn risk, particularly when issues remain unresolved. Complaint-related interactions are disproportionately represented among churned customers, while prolonged inactivity following an unresolved final interaction strongly indicates disengagement.
 
-## output
-report
+## Full Report
+For a detailed methodology, analysis, and interpretation of results, see the full report here:  
+📄 [Download the full analysis report (PDF)](reports/Customer_churn_data_analysis_report.pdf)
 
 ## Future Work
 This dataset could be extended into predictive modelling by encoding categorical variables and scaling numerical features for machine-learning algorithms.
