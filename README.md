@@ -14,9 +14,29 @@ The dataset is sourced from the Lloyds Banking Group Virtual Experience programm
 ## Data Preparation
 Data cleaning and preparation were carried out using Excel and Python (Google Colab). This process included validation of categorical fields, detection of outliers in numerical variables such as age and transaction amounts, handling missing values, removal of duplicate records, and correction of data types. The detailed data cleaning workflow and code are documented in a separate repository, available here: 🧹 [Data Cleaning Repository](https://github.com/Alaina-dev/Data-cleaning-Customer-churn-data-analysis). 
 
-Additional features were created during the analysis phase in Tableau, including derived metrics such as interaction frequency per customer and recency of the last interaction..
+Additional features were created during the analysis phase in Tableau to support analysis, including derived metrics such as interaction frequency per customer and recency of the last interaction..
 ### Calculated Fields Summary
 Customer-level metrics were created using Tableau LOD calculations to ensure accurate aggregation.
+- Age group
+	Churn Rate
+	ComplaintCountPerCustomer
+	Interactions per Customer
+	Is Last Interaction?
+	Last Interaction Date
+	LastPurchaseDate Per Customer
+	Recency (Days Since Last Interaction)
+	Recency of login
+	Rencency group
+	RecencyDays
+	RecencyOfTransaction
+	Service Frequency
+	Total spent per customer
+	TotalSpentPerCustomer
+	Transaction group
+	TransactionCountPerCustomer
+	Unresolved Interactions per Customer
+
+
 ## Analysis Overview
 The analysis examines the relationship between customer churn and multiple behavioural and demographic factors, including demographic categories, complaint activity, resolution status of the final interaction, and RFM metrics (transaction recency, frequency, and monetary value). It also explores customer service interaction patterns such as interaction timing, frequency, and type, as well as digital engagement indicators including login frequency, recency, and service channel usage.
 
