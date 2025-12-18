@@ -1,10 +1,8 @@
 # Customer-churn-data-analysis  ![tableau_label](images/tableau_label.png)
-Tableau visualisation of customer segmentation and behavioural patterns for exploratory data analysis (EDA) and churn modelling
-## Interactive Dashboard
-View the interactive Tableau dashboard here:  
-[View Interactive Tableau Dashboard](https://public.tableau.com/views/Bankcustomerchurndataanalysis/CustomerServiceResolution?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+This Tableau project explores customer churn behaviour for exploratory data analysis (EDA)using customer geograph and service interaction data. It focuses on identifying early churn indicators through analysis of interaction frequency, interaction type, resolution status, and recency of the final customer interaction.
 
-This project analyses customer churn behaviour using customer service interaction data. The objective is to identify early churn signals by examining interaction frequency, interaction type, resolution outcomes, and recency of the last interaction.
+## Interactive Dashboard
+[View Interactive Tableau Dashboard:](https://public.tableau.com/views/Bankcustomerchurndataanalysis/CustomerServiceResolution?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Tools and Technologies
 Tableau Public version??
