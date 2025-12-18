@@ -5,15 +5,14 @@ This Tableau project explores customer churn behaviour for exploratory data anal
 [View Interactive Tableau Dashboard:](https://public.tableau.com/views/Bankcustomerchurndataanalysis/CustomerServiceResolution?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Tools and Technologies
-Tableau Public version??
+Tableau Desktop Public Edition version 2025.2.4
 Microsoft Excel
-GitHub
 
 ## Dataset Description
-The dataset is sourced from the Lloyds Bank Virtual Experience programme on Forage. It contains anonymised customer service interaction records, including interaction type, resolution status, interaction dates, and churn indicators.
+The dataset is sourced from the Lloyds Banking Group Virtual Experience programme on Forage and is organised across multiple tables, including Customer_Demographics, Transaction_History, Customer_Service, Online_Activity, and Churn_Status. Together, these tables contain anonymised customer segmentation, customer service interaction, and behavioural data, including catogories like interaction type, resolution status, and interaction dates.
 
 ## Data Preparation
-Data cleaning and preparation were performed in Excel and Tableau. This included validation of categorical fields, detection of outliers in numerical variables such as age and interaction counts, handling of missing values, and creation of derived features such as interaction frequency per customer and recency of last interaction.
+Data cleaning and preparation were carried out using Excel and Python (Google Colab). This process included validation of categorical fields, detection of outliers in numerical variables such as age and transaction amounts, handling missing values, removal of duplicate records, and correction of data types. The detailed data cleaning workflow and code are documented in a separate repository, available here: Data Cleaning Repository. Additional features were created during the analysis phase in Tableau, including derived metrics such as interaction frequency per customer and recency of the last interaction..
 
 ## Analysis Overview
 The analysis focuses on:
@@ -27,10 +26,6 @@ Customer-level metrics were created using Tableau LOD calculations to ensure acc
 ## Key Insights
 Customers with repeated service interactions show higher churn risk, particularly when issues remain unresolved. Complaint-related interactions are disproportionately represented among churned customers, while prolonged inactivity following an unresolved final interaction strongly indicates disengagement.
 
-## Tableau Dashboard
-View the interactive dashboard here:
-[Paste Tableau Public link]
-
 ## output
 report
 
@@ -43,8 +38,6 @@ Take 1–2 clean screenshots of:
 • the key churn insight section
 Add them under the README using Markdown:
 
-![Dashboard Overview](images/dashboard_overview.png)
-This helps recruiters scan quickly.
 
 
 
