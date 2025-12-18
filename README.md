@@ -25,7 +25,7 @@ The analysis focuses on:
 • Recency of last interaction as an early churn signal
 ### Dashboards
 ![Customer_Demographics_Overview](images/Customer_Demographics_Overview.png)
-![Customer_Segmentation_Churn Status](images/Customer_Segmentation_Churn Status.png)
+![Customer_Segmentation_Churn_Status](images/Customer_Segmentation_Churn_Status.png)
 ![Transaction_Behaviour_Churn_rate](images/Transaction_Behaviour_Churn_rate.png)
 ![Cusomter_Service_Interactions_Churn_Risk](images/Cusomter_Service_Interactions_Churn_Risk.png)
 ![CustomerComplaints_Churn](images/CustomerComplaints_Churn.png)
