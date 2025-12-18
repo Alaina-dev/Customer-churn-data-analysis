@@ -42,13 +42,3 @@ For a detailed methodology, analysis, and interpretation of results, see the ful
 
 ## Future Work
 This dataset could be extended into predictive modelling by encoding categorical variables and scaling numerical features for machine-learning algorithms.
-
-Step 5: Add screenshots (optional but powerful)
-Take 1–2 clean screenshots of:
-• the full dashboard
-• the key churn insight section
-Add them under the README using Markdown:
-
-
-
-
