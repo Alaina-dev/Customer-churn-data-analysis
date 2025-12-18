@@ -14,7 +14,9 @@ The dataset is sourced from the Lloyds Banking Group Virtual Experience programm
 ## Data Preparation
 Data cleaning and preparation were carried out using Excel and Python (Google Colab). This process included validation of categorical fields, detection of outliers in numerical variables such as age and transaction amounts, handling missing values, removal of duplicate records, and correction of data types. The detailed data cleaning workflow and code are documented in a separate repository, available here: 🧹 [Data Cleaning Repository](https://github.com/Alaina-dev/Data-cleaning-Customer-churn-data-analysis). 
 
-
+Additional features were created during the analysis phase in Tableau to support deeper insights, including derived metrics such as interaction frequency per customer and recency of the last interaction.
+## Calculated Fields Summary
+Customer-level metrics were created using Tableau LOD calculations to ensure accurate and consistent aggregation across analyses.The calculated fields used in this project include the following:
 - Age group
 - Churn Rate
 - ComplaintCountPerCustomer
