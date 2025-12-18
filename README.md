@@ -16,25 +16,29 @@ Data cleaning and preparation were carried out using Excel and Python (Google Co
 
 Additional features were created during the analysis phase in Tableau, including derived metrics such as interaction frequency per customer and recency of the last interaction..
 ### Calculated Fields Summary
-
+Customer-level metrics were created using Tableau LOD calculations to ensure accurate aggregation.
 ## Analysis Overview
-The analysis focuses on:
-• Churn rate by interaction type
-• Complaint frequency and resolution outcomes
-• Repeated interactions and service fatigue
-• Recency of last interaction as an early churn signal
-### Dashboards
+The analysis examines the relationship between customer churn and multiple behavioural and demographic factors, including demographic categories, complaint activity, resolution status of the final interaction, and RFM metrics (transaction recency, frequency, and monetary value). It also explores customer service interaction patterns such as interaction timing, frequency, and type, as well as digital engagement indicators including login frequency, recency, and service channel usage.
+
+ ### Dashboards
 ![Customer_Demographics_Overview](images/Customer_Demographics_Overview.png)
+
 ![Customer_Segmentation_Churn_Status](images/Customer_Segmentation_Churn_Status.png)
+
 ![Transaction_Behaviour_Churn_rate](images/Transaction_Behaviour_Churn_rate.png)
+
 ![Cusomter_Service_Interactions_Churn_Risk](images/Cusomter_Service_Interactions_Churn_Risk.png)
+
 ![CustomerComplaints_Churn](images/CustomerComplaints_Churn.png)
+
 ![Online_Activity_Engagement](images/Online_Activity_Engagement.png)
 
-Customer-level metrics were created using Tableau LOD calculations to ensure accurate aggregation.
-
-### Key Insights
-Customers with repeated service interactions show higher churn risk, particularly when issues remain unresolved. Complaint-related interactions are disproportionately represented among churned customers, while prolonged inactivity following an unresolved final interaction strongly indicates disengagement.
+ ### Key Insights
+Customer churn is driven primarily by behavioural disengagement rather than static demographics alone. While churn varies across demographic groups, it is most pronounced among customers aged 36–64, with minimal differences observed by gender and relatively balanced churn across income levels. This suggests demographics provide context but are not the strongest predictors of churn.
+Transaction behaviour analysis shows that transaction recency is the most influential predictor of churn. Customers who have not transacted recently are significantly more likely to churn, while total spend and transaction frequency demonstrate weaker and more non-linear relationships.
+Customer service experience plays a critical role in churn outcomes. Churn risk is strongly associated with unresolved final interactions, particularly when followed by prolonged inactivity. Complaints themselves do not directly cause churn; instead, churn increases when complaints are repeated, unresolved, or poorly followed up, indicating failures in service recovery.
+Digital engagement is a strong early warning indicator. Customers with lower login frequency and longer periods since their last login show significantly higher churn risk, highlighting declining digital activity as a key signal of disengagement.
+Overall, early churn signals are best identified through recency, unresolved service issues, and declining engagement, rather than customer volume or value alone.
 
 ## Full Report
 For a detailed methodology, analysis, and interpretation of results, see the full report here:  
