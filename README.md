@@ -23,7 +23,7 @@ The analysis focuses on:
 • Complaint frequency and resolution outcomes
 • Repeated interactions and service fatigue
 • Recency of last interaction as an early churn signal
-![Customer Demographics Overview](images/Customer Demographics Overview.png)
+![Customer_Demographics_Overview](images/Customer_Demographics_Overview.png)
 ![tableau_label](images/tableau_label.png)
 ![tableau_label](images/tableau_label.png)
 ![tableau_label](images/tableau_label.png)
