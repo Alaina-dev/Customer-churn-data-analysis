@@ -24,11 +24,11 @@ The analysis focuses on:
 • Repeated interactions and service fatigue
 • Recency of last interaction as an early churn signal
 ![Customer_Demographics_Overview](images/Customer_Demographics_Overview.png)
-![tableau_label](images/tableau_label.png)
-![tableau_label](images/tableau_label.png)
-![tableau_label](images/tableau_label.png)
-![tableau_label](images/tableau_label.png)
-![tableau_label](images/tableau_label.png)
+![Customer_Segmentation_Churn Status](images/Customer_Segmentation_Churn Status.png)
+![Transaction_Behaviour_Churn_rate](images/Transaction_Behaviour_Churn_rate.png)
+![Cusomter_Service_Interactions_Churn_Risk](images/Cusomter_Service_Interactions_Churn_Risk.png)
+![CustomerComplaints_Churn](images/CustomerComplaints_Churn.png)
+![Online_Activity_Engagement](images/Online_Activity_Engagement.png)
 
 Customer-level metrics were created using Tableau LOD calculations to ensure accurate aggregation.
 
