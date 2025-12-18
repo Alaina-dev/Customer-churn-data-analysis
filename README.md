@@ -1,4 +1,4 @@
-# Customer-churn-data-analysis
+# Customer-churn-data-analysisimages/tableau label.png
 Tableau visualisation of customer segmentation and behavioural patterns for exploratory data analysis (EDA) and churn modelling
 ## Interactive Dashboard
 View the interactive Tableau dashboard here:  
